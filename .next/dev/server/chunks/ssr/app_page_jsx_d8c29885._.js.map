@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/work/wbadmindashboard/app/page.jsx"],"sourcesContent":["\"use client\";\n\nimport { useClerk, useUser } from \"@clerk/nextjs\";\n\nexport default function AdminDashboard() {\n  const { isLoaded, isSignedIn, user } = useUser();\n  const { openSignIn, signOut } = useClerk();\n  return (\n    <div>\n      <h1>Hello</h1>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,MAAM,EAAE,QAAQ,EAAE,UAAU,EAAE,IAAI,EAAE,GAAG,IAAA,4RAAO;IAC9C,MAAM,EAAE,UAAU,EAAE,OAAO,EAAE,GAAG,IAAA,6RAAQ;IACxC,qBACE,6WAAC;kBACC,cAAA,6WAAC;sBAAG;;;;;;;;;;;AAGV"}}]
+}

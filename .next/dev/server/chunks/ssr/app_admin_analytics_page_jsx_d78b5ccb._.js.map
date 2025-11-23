@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/work/wbadmindashboard/app/admin/analytics/page.jsx"],"sourcesContent":["\"use client\"\n\nexport default function AnalyticsPage() {\n  return (\n    <div className=\"flex items-center justify-center h-[60vh]\">\n      <div className=\"text-center\">\n        <h2 className=\"text-2xl font-bold text-[#2C1810] mb-2\">Analytics Dashboard</h2>\n        <p className=\"text-gray-500\">Detailed analytics and reports coming soon.</p>\n      </div>\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;;AAEe,SAAS;IACtB,qBACE,6WAAC;QAAI,WAAU;kBACb,cAAA,6WAAC;YAAI,WAAU;;8BACb,6WAAC;oBAAG,WAAU;8BAAyC;;;;;;8BACvD,6WAAC;oBAAE,WAAU;8BAAgB;;;;;;;;;;;;;;;;;AAIrC"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/work/wbadmindashboard/app/page.jsx"],"sourcesContent":["\"use client\";\n\nimport { useClerk, useUser } from \"@clerk/nextjs\";\nimport { useRouter } from \"next/navigation\";\nimport { Router } from \"next/router\";\nimport { useEffect } from \"react\";\nexport default function AdminDashboard() {\nconst router = useRouter()\n  const { isLoaded, isSignedIn, user } = useUser();\n  const { openSignIn, signOut } = useClerk();\n\n  useEffect(() => {\n    if (isLoaded && !isSignedIn) {\n      openSignIn();\n    }\n    rou\n  }, [isLoaded, isSignedIn, openSignIn]);\n}\nreturn (\n  <div>\n    <h1>Hello</h1>\n  </div>\n);\n"],"names":[],"mappings":";;;;;AAEA;AACA;AACA;AACA;;;AALA;;;;;AAMe,SAAS;;IACxB,MAAM,SAAS,IAAA,iRAAS;IACtB,MAAM,EAAE,QAAQ,EAAE,UAAU,EAAE,IAAI,EAAE,GAAG,IAAA,+RAAO;IAC9C,MAAM,EAAE,UAAU,EAAE,OAAO,EAAE,GAAG,IAAA,gSAAQ;IAExC,IAAA,ySAAS;oCAAC;YACR,IAAI,YAAY,CAAC,YAAY;gBAC3B;YACF;YACA;QACF;mCAAG;QAAC;QAAU;QAAY;KAAW;AACvC;GAXwB;;QACT,iRAAS;QACiB,+RAAO;QACd,gSAAQ;;;KAHlB;AAYxB,qBACE,4TAAC;cACC,cAAA,4TAAC;kBAAG"}}]
+}
