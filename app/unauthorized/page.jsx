@@ -25,9 +25,10 @@ export default function UnauthorizedPage() {
     }
   }, [isLoaded, user, router]);
 
-  const handleSignIn = () => {
-    signOut(); // Ensure user is signed out first
-    openSignIn();
+  const handleSignIn = async () => {
+    await signOut(); // Ensure user is signed out first
+
+    await openSignIn();
   };
 
   if (isChecking && !isLoaded) {

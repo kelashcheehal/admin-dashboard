@@ -23,7 +23,7 @@ export default function HomePage() {
     console.log("User role:", role); // Debug: Check this in console
 
     if (role === "admin") {
-      router.replace("/admin/products");
+      router.replace("/admin");
     } else {
       router.replace("/unauthorized");
     }
